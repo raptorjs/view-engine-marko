@@ -1,29 +1,29 @@
 {
-  "name": "view-engine-raptor",
-  "description": "Raptor Templates view engine",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/patrick-steele-idem/view-engine-raptor.git"
-  },
-  "main": "view-engine-raptor.js",
-  "scripts": {},
-  "keywords": [
-    "view-engine",
-    "raptor-templates"
-  ],
-  "devDependencies": {
-    "mocha": "~1.15.1",
-    "chai": "~1.8.1",
-    "jshint": "~2.3.0",
-    "raptor-templates": "^0.2.8-beta"
-  },
-  "author": "Patrick Steele-Idem <pnidem@gmail.com>",
-  "license": "Apache License v2.0",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
-  "version": "0.1.1-beta",
-  "dependencies": {
-    "raptor-templates": "^0.2.12-beta"
-  }
+    "name": "view-engine-raptor",
+    "description": "Raptor Templates view engine",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/patrick-steele-idem/view-engine-raptor.git"
+    },
+    "main": "view-engine-raptor.js",
+    "scripts": {},
+    "keywords": [
+        "view-engine",
+        "raptor-templates"
+    ],
+    "devDependencies": {
+        "mocha": "~1.15.1",
+        "chai": "~1.8.1",
+        "jshint": "~2.3.0",
+        "raptor-templates": "^0.2.8-beta"
+    },
+    "author": "Patrick Steele-Idem <pnidem@gmail.com>",
+    "license": "Apache License v2.0",
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/"
+    },
+    "dependencies": {
+        "raptor-templates": "^0.2.12-beta"
+    },
+    "version": "0.1.2-beta"
 }
