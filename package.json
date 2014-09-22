@@ -1,21 +1,21 @@
 {
-    "name": "view-engine-raptor",
-    "description": "Raptor Templates view engine",
+    "name": "view-engine-marko",
+    "description": "Marko view engine",
     "repository": {
         "type": "git",
-        "url": "https://github.com/patrick-steele-idem/view-engine-raptor.git"
+        "url": "https://github.com/patrick-steele-idem/view-engine-marko.git"
     },
-    "main": "view-engine-raptor.js",
+    "main": "view-engine-marko.js",
     "scripts": {},
     "keywords": [
         "view-engine",
-        "raptor-templates"
+        "marko"
     ],
     "devDependencies": {
         "mocha": "~1.15.1",
         "chai": "~1.8.1",
         "jshint": "~2.3.0",
-        "raptor-templates": "^1.1.0-beta"
+        "marko": "^1.1.0"
     },
     "author": "Patrick Steele-Idem <pnidem@gmail.com>",
     "license": "Apache License v2.0",
@@ -23,7 +23,7 @@
         "registry": "https://registry.npmjs.org/"
     },
     "dependencies": {
-        "raptor-templates": "^1.0.0"
+        "marko": "^1.0.0"
     },
-    "version": "0.1.5-beta"
+    "version": "1.0.0"
 }

@@ -1,30 +1,30 @@
-view-engine-raptor
+view-engine-marko
 ==================
-Raptor Templates [view engine](https://github.com/patrick-steele-idem/view-engine)
+Marko [view engine](https://github.com/patrick-steele-idem/view-engine)
 
 # Installation
 
 ```
-npm install view-engine-raptor --save
+npm install view-engine-marko --save
 ```
 
 # Usage
 
-Enable the Raptor Templates view engine:
+Enable the Marko view engine:
 ```javascript
 require('view-engine').configure({
     engines: {
-        'view-engine-rhtml': {
-            extensions: ['rhtml']
+        'view-engine-marko': {
+            extensions: ['marko']
         }
     }
 })
 ```
 
-The Raptor Templates view engine is now ready to be used elsewhere in your code:
+The Marko view engine is now ready to be used elsewhere in your code:
 
 ```javascript
-var template = require('view-engine').load('hello.rhtml');
+var template = require('view-engine').load('hello.marko');
 
 // Callback-style
 template.render({ name: 'John'}, function(err, data) {
