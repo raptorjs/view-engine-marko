@@ -1,29 +1,29 @@
 {
-    "name": "view-engine-marko",
-    "description": "Marko view engine",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/patrick-steele-idem/view-engine-marko.git"
-    },
-    "main": "view-engine-marko.js",
-    "scripts": {},
-    "keywords": [
-        "view-engine",
-        "marko"
-    ],
-    "devDependencies": {
-        "mocha": "~1.15.1",
-        "chai": "~1.8.1",
-        "jshint": "~2.3.0",
-        "marko": "^1.1.0"
-    },
-    "author": "Patrick Steele-Idem <pnidem@gmail.com>",
-    "license": "Apache License v2.0",
-    "publishConfig": {
-        "registry": "https://registry.npmjs.org/"
-    },
-    "dependencies": {
-        "marko": "^1.0.0"
-    },
-    "version": "1.0.0"
+  "name": "view-engine-marko",
+  "description": "Marko view engine",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patrick-steele-idem/view-engine-marko.git"
+  },
+  "main": "view-engine-marko.js",
+  "scripts": {},
+  "keywords": [
+    "view-engine",
+    "marko"
+  ],
+  "devDependencies": {
+    "mocha": "~1.15.1",
+    "chai": "~1.8.1",
+    "jshint": "~2.3.0",
+    "marko": "^1.1.0"
+  },
+  "author": "Patrick Steele-Idem <pnidem@gmail.com>",
+  "license": "Apache License v2.0",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "marko": "^2.4.0"
+  },
+  "version": "2.0.0"
 }
